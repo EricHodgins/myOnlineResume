@@ -1,0 +1,371 @@
+/* Layout
+================================= */
+
+body {
+	padding-top: 70px;
+}
+
+a {
+	margin-right: 20px;
+}
+
+
+.map-row-div {
+	margin: auto;
+}
+
+#map {
+	width: 90%;
+	height: 400px;
+	/*background-color: blue;*/
+	margin: auto;
+	/*margin-top: 50px;*/
+}
+
+.bottom-footer {
+	color: #428bca;
+}
+
+.bottom-footer a {
+	margin: 0;
+}
+
+.bottom-footer img {
+	width: 30px;
+	margin-right: 20px;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+/* Summary */
+
+.profile-pic {
+	margin-right: -7%;
+	margin-top: 1%;
+}
+
+.pic-me {
+	max-width: 75px;
+	border-radius: 15px;
+	margin: auto;
+	float: left;
+}
+
+.sub-title {
+	max-width: 800px;
+}
+
+
+/* Work Experience */
+.work-location {
+	float: right;
+}
+
+.work-points {
+	display: none;
+}
+
+/* Education */
+
+.online-title {
+	border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+
+/* Technical skills */
+
+.rating {
+	width: 100%;
+}
+
+.marker {
+	width: 33.33%;
+	margin-top: -24px;
+	float: left;
+}
+
+.intermediate {
+	text-align: center;
+}
+
+.advanced {
+	text-align: right;
+}
+
+
+
+.skill-wrap {
+	box-sizing: border-box;
+	margin: 40px auto;
+	padding: 5px;
+	width: 90%;
+	border-radius: 10px;
+	background: #222;
+	box-shadow: inset 0 0 1px rgba(0,0,0,.6), 0 1px 0 rgba(255,255,255,.1);
+}
+
+/* python */
+
+.python-bar {
+	width: 40%;
+	height: 20px;
+	border-radius: 10px;
+
+	background: rgb(248,181,0); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(248,181,0,1) 12%, rgba(248,181,0,1) 12%, rgba(252,205,77,1) 44%, rgba(252,234,187,1) 92%, rgba(251,223,147,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(12%,rgba(248,181,0,1)), color-stop(12%,rgba(248,181,0,1)), color-stop(44%,rgba(252,205,77,1)), color-stop(92%,rgba(252,234,187,1)), color-stop(100%,rgba(251,223,147,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(248,181,0,1) 12%,rgba(248,181,0,1) 12%,rgba(252,205,77,1) 44%,rgba(252,234,187,1) 92%,rgba(251,223,147,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(248,181,0,1) 12%,rgba(248,181,0,1) 12%,rgba(252,205,77,1) 44%,rgba(252,234,187,1) 92%,rgba(251,223,147,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(248,181,0,1) 12%,rgba(248,181,0,1) 12%,rgba(252,205,77,1) 44%,rgba(252,234,187,1) 92%,rgba(251,223,147,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(248,181,0,1) 12%,rgba(248,181,0,1) 12%,rgba(252,205,77,1) 44%,rgba(252,234,187,1) 92%,rgba(251,223,147,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b500', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+
+	-webkit-animation-name: python-slide;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	animation-name: slide;
+	animation-duration: 2s;
+
+}
+
+									/* KEY FRAMES for Technical Skills */
+
+@-webkit-keyframes python-slide {
+	0% { width: 0%; }
+	100% { width: 40%; }
+}
+
+@-moz-keyframes python-slide {
+	0% { width: 0%; }
+	50% { width: 40%; }
+	100% { width: 100%; }
+}
+
+@o-keyframes python-slide {
+	0% { width: 0%; }
+	50% { width: 40%; }
+	100% { width: 100%; }
+}
+
+@keyframes python-slide {
+	0% { width: 0%; }
+	50% { width: 40%; }
+	100% { width: 100%; }
+}
+
+/* objective-c */
+
+.objective-c-bar {
+	width: 44%;
+	height: 20px;
+	border-radius: 10px;
+
+	background: rgb(64,150,238); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(64,150,238,1) 0%, rgba(170,203,237,1) 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(64,150,238,1)), color-stop(99%,rgba(170,203,237,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(170,203,237,1) 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(170,203,237,1) 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(170,203,237,1) 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(64,150,238,1) 0%,rgba(170,203,237,1) 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#aacbed',GradientType=0 ); /* IE6-9 */
+
+
+	-webkit-animation-name: objective-c-slide;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	animation-name: slide;
+	animation-duration: 2s;
+
+}
+
+									/* KEY FRAMES for Technical Skills */
+
+@-webkit-keyframes objective-c-slide {
+	0% { width: 0%; }
+	100% { width: 44%; }
+}
+
+@-moz-keyframes objective-c-slide {
+	0% { width: 0%; }
+	50% { width: 44%; }
+	100% { width: 100%; }
+}
+
+@o-keyframes objective-c-slide {
+	0% { width: 0%; }
+	50% { width: 44%; }
+	100% { width: 100%; }
+}
+
+@keyframes objective-c-slide {
+	0% { width: 0%; }
+	50% { width: 44%; }
+	100% { width: 100%; }
+}
+
+/* javascript */
+
+.javascript-bar {
+	width: 35%;
+	height: 20px;
+	border-radius: 10px;
+
+	background: rgb(109,0,25); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(109,0,25,1) 0%, rgba(109,0,25,1) 0%, rgba(143,2,34,1) 44%, rgba(168,153,156,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(109,0,25,1)), color-stop(0%,rgba(109,0,25,1)), color-stop(44%,rgba(143,2,34,1)), color-stop(100%,rgba(168,153,156,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(109,0,25,1) 0%,rgba(109,0,25,1) 0%,rgba(143,2,34,1) 44%,rgba(168,153,156,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(109,0,25,1) 0%,rgba(109,0,25,1) 0%,rgba(143,2,34,1) 44%,rgba(168,153,156,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(109,0,25,1) 0%,rgba(109,0,25,1) 0%,rgba(143,2,34,1) 44%,rgba(168,153,156,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(109,0,25,1) 0%,rgba(109,0,25,1) 0%,rgba(143,2,34,1) 44%,rgba(168,153,156,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', endColorstr='#a8999c',GradientType=0 ); /* IE6-9 */
+
+	-webkit-animation-name: javascript-slide;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	animation-name: slide;
+	animation-duration: 2s;
+
+}
+
+									/* KEY FRAMES for Technical Skills */
+
+@-webkit-keyframes javascript-slide {
+	0% { width: 0%; }
+	100% { width: 35%; }
+}
+
+@-moz-keyframes javascript-slide {
+	0% { width: 0%; }
+	50% { width: 35%; }
+	100% { width: 100%; }
+}
+
+@o-keyframes javascript-slide {
+	0% { width: 0%; }
+	50% { width: 35%; }
+	100% { width: 100%; }
+}
+
+@keyframes javascript-slide {
+	0% { width: 0%; }
+	50% { width: 35%; }
+	100% { width: 100%; }
+}
+
+/* HTML */
+
+.html-bar {
+	width: 50%;
+	height: 20px;
+	border-radius: 10px;
+
+	background: rgb(255,116,0); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,116,0,1) 0%, rgba(255,224,198,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,116,0,1)), color-stop(100%,rgba(255,224,198,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,116,0,1) 0%,rgba(255,224,198,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,116,0,1) 0%,rgba(255,224,198,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,116,0,1) 0%,rgba(255,224,198,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,116,0,1) 0%,rgba(255,224,198,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7400', endColorstr='#ffe0c6',GradientType=0 ); /* IE6-9 */
+
+	-webkit-animation-name: html-slide;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	animation-name: slide;
+	animation-duration: 2s;
+
+}
+
+									/* KEY FRAMES for Technical Skills */
+
+@-webkit-keyframes html-slide {
+	0% { width: 0%; }
+	100% { width: 50%; }
+}
+
+@-moz-keyframes html-slide {
+	0% { width: 0%; }
+	50% { width: 50%; }
+	100% { width: 100%; }
+}
+
+@o-keyframes html-slide {
+	0% { width: 0%; }
+	50% { width: 50%; }
+	100% { width: 100%; }
+}
+
+@keyframes html-slide {
+	0% { width: 0%; }
+	50% { width: 50%; }
+	100% { width: 100%; }
+}
+
+/* css */
+
+.css-bar {
+	width: 45%;
+	height: 20px;
+	border-radius: 10px;
+
+	background: rgb(41,154,11); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(41,154,11,1) 0%, rgba(148,226,127,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(41,154,11,1)), color-stop(100%,rgba(148,226,127,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(41,154,11,1) 0%,rgba(148,226,127,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(41,154,11,1) 0%,rgba(148,226,127,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(41,154,11,1) 0%,rgba(148,226,127,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(41,154,11,1) 0%,rgba(148,226,127,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#94e27f',GradientType=0 ); /* IE6-9 */
+
+
+	-webkit-animation-name: css-slide;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	animation-name: slide;
+	animation-duration: 2s;
+
+}
+
+									/* KEY FRAMES for Technical Skills */
+
+@-webkit-keyframes css-slide {
+	0% { width: 0%; }
+	100% { width: 45%; }
+}
+
+@-moz-keyframes css-slide {
+	0% { width: 0%; }
+	50% { width: 45%; }
+	100% { width: 100%; }
+}
+
+@o-keyframes css-slide {
+	0% { width: 0%; }
+	50% { width: 45%; }
+	100% { width: 100%; }
+}
+
+@keyframes css-slide {
+	0% { width: 0%; }
+	50% { width: 45%; }
+	100% { width: 100%; }
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px) {
+	body {
+		padding-top: 160px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.pic-me {
+		float: right;
+		width: 50px;
+	}
+
+	.profile-pic {
+		margin: auto;
+	}
+}
